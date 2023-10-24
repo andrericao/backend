@@ -26,6 +26,7 @@ class WebMockTest {
     @Test
     void greetingShouldReturnMessageFromService() throws Exception {
         when(service.greet()).thenReturn("Hello, f");
+
         this.mockMvc.perform(
                 get("/greeting"))
                 .andDo(print())
