@@ -18,7 +18,7 @@ public class TestaConta {
 
         System.out.println(c1.getDataDeAbertura().getDataFormatada());
 
-        System.out.println(c1.getRendimentos());
+        System.out.println("Rendimentos: " + c1.getRendimentos());
 
         System.out.println("Número identificador de c1: " + c1.getIdentificador());
         System.out.println("Número identificador de c2: " + c2.getIdentificador());
