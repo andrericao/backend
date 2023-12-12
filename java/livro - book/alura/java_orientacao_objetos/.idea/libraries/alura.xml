@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="alura">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/alura_jar/alura.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

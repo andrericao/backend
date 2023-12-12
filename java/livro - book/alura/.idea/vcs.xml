@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../curso - course/digital_house/Backend - 1/checkpoint/backend-checkpoint-ii" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../springboot/gs-maven" vcs="Git" />
   </component>
 </project>
