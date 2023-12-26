@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
-Main-Class: cap_5_modificadores_de_acesso.exercicio.TestaConta
+Main-Class: cap_9_heranca_reescrita_polimorfismo.exemplos.banco.testaGer
+ ente
 

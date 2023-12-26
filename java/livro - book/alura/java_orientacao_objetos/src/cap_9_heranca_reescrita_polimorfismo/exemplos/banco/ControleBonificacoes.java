@@ -4,8 +4,9 @@ public class ControleBonificacoes {
 
     private double totalBonificacoes = 0;
 
-    public void registra(Funcionario funcionario){
-        this.totalBonificacoes += funcionario.getBonificacao();
+    public void registra(Funcionario f){
+        System.out.println("Adicionando bonificação do funcionário " + f);
+        this.totalBonificacoes += f.getBonificacao();
     }
 
     public double getTotalBonificacoes(){
