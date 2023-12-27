@@ -3,11 +3,9 @@
 
 package cap2.exemplos;
 
-public class BemVindo2
-{
+public class BemVindo2{
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         System.out.println("========== PRINTLN ===========");
         System.out.print("Bem vindo a ");
         System.out.println("Programação Java!");
