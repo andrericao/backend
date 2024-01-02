@@ -14,9 +14,20 @@ public class Conta {
         }
     }
 
-    public void deposito(double valorDeposito){
+    public void deposita(double valorDeposito){
         if(valorDeposito > 0.0){
             saldo = saldo + valorDeposito;
+        } else {
+            System.out.println("Valor deve ser maior que R$ 0,00");
+        }
+    }
+
+    public void saca(double valorSaque){
+        if(valorSaque > this.saldo){
+            System.out.println("Saldo insufuciente");
+        } else {
+            saldo -= valorSaque;
+            System.out.println("Saque de R$" + valorSaque + " efetuado com sucesso.");
         }
     }
 
