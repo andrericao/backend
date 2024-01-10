@@ -1,4 +1,4 @@
-package cap3.estudoCasoOpcional.exemplos;
+package cap3.imagemGrafica.exemplos;
 
 import javax.swing.JOptionPane;
 

@@ -1,4 +1,4 @@
-package cap3.estudoCasoOpcional.exercicio;
+package cap3.imagemGrafica.exercicio;
 
 import javax.swing.*;
 
