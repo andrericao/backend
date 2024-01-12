@@ -3,12 +3,24 @@ package cap4.exercicios.imagemGrafica;
 import javax.swing.*;
 import java.awt.*;
 
-public class PainelDesenho extends JPanel {
+public class PainelDesenho4_1a extends JPanel {
     public void paintComponent(Graphics g){
         super.paintComponent(g);
 
-        int width = getWidth();
+       // int width = getWidth();
         int height = getHeight();
+
+
+        int c = 0;
+
+        while(c < 450){
+            g.drawLine(0, 0, c,  height - c);
+            c += 30;
+        }
+
+        /*
+
+        CÓDIGO ECONOMIZADO
 
         g.drawLine(0, 0, 0, height );
         g.drawLine(0, 0, 30,  height - 30);
@@ -26,5 +38,6 @@ public class PainelDesenho extends JPanel {
         g.drawLine(0, 0, 390,  height - 390);
         g.drawLine(0, 0, 420,  height - 420);
         g.drawLine(0, 0, 450,  height - 450);
+        */
     }
 }

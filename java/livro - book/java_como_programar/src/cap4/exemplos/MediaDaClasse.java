@@ -12,6 +12,8 @@ public class MediaDaClasse {
         while(contadorNotas < 11){
             System.out.print("Digite a nota: ");
             int nota = input.nextInt();
+            // antes do ensino do incremento e decremento
+            // preferi deixar
             somatorioNotas = somatorioNotas + nota;
             contadorNotas = contadorNotas + 1;
         }

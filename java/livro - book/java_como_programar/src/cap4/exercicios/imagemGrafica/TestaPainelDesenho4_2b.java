@@ -2,10 +2,11 @@ package cap4.exercicios.imagemGrafica;
 
 import javax.swing.*;
 
-public class TestaPainelDesenho2 {
+public class TestaPainelDesenho4_2b {
+
     public static void main(String[] args) {
 
-        PainelDesenho2 painel = new PainelDesenho2();
+        PainelDesenho4_2b painel = new PainelDesenho4_2b();
 
         JFrame app = new JFrame();
 

@@ -3,12 +3,35 @@ package cap4.exercicios.imagemGrafica;
 import java.awt.*;
 import javax.swing.*;
 
-public class PainelDesenho2 extends JPanel{
+public class PainelDesenho4_1b extends JPanel{
     public void paintComponent(Graphics g){
         super.paintComponent(g);
 
         int width = getWidth();
         int height = getHeight();
+        int c = 0;
+
+
+        while (c < 450){
+
+            // vértice canto esquerdo superior
+            g.drawLine(0, 0, c, height - c );
+
+            // vértice canto direito inferior
+            g.drawLine(c, height - c, width, height );
+
+            // vértice canto esquerdo inferior
+            g.drawLine(width, 0 , width - c, height - c);
+
+            // vértice canto  superior
+            g.drawLine(0, height, width - c, height - c );
+            c += 15;
+
+        }
+        /*
+
+        CÓDIGO ECONOMIZADO
+
         // vértice canto esquerdo superior
         g.drawLine(0, 0, 0, height );
         g.drawLine(0, 0, 30,  height - 30);
@@ -74,7 +97,7 @@ public class PainelDesenho2 extends JPanel{
         g.drawLine(0, height, width - 330,height - 330);
         g.drawLine(0, height, width - 360,height - 360);
         g.drawLine(0, height, width - 390,height - 390);
-
+        */
 
     }
 }

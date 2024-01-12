@@ -2,14 +2,14 @@ package cap4.exercicios.imagemGrafica;
 
 import javax.swing.*;
 
-public class TestaPainelDesenho {
+public class TestaPainelDesenho4_2a {
     public static void main(String[] args) {
 
-        PainelDesenho painel = new PainelDesenho();
+        PainelDesenho4_2a painel = new PainelDesenho4_2a();
 
         JFrame app = new JFrame();
 
-        app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);;
+        app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         app.add(painel);
         app.setSize(450, 450);
