@@ -1,5 +1,10 @@
 package cap4.exercicios;
 
+// NÃO ENTENDI A PARTE ENTRE PARÊNTESES
+// O programa deve inserir todos esses dados como inteiros,
+// calcular o novo saldo (= saldo inicial + despesas – créditos)
+
+
 import java.util.Scanner;
 
 public class Exercicio4_18 {
