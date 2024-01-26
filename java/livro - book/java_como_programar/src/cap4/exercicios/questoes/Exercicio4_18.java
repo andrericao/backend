@@ -1,4 +1,4 @@
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 
 // NÃO ENTENDI A PARTE ENTRE PARÊNTESES
 // O programa deve inserir todos esses dados como inteiros,

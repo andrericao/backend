@@ -1,7 +1,7 @@
 // 4.3 Escreva quatro instruções Java
 // diferentes que adicionam 1 à variável de inteiro x.
 
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 
 public class Exercicio4_3 {
     public static void main(String[] args) {

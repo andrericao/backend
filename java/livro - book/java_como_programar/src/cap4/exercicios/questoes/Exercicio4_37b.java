@@ -1,4 +1,4 @@
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 // b) Escreva um aplicativo que estima o valor da constante matemática e utilizando
 // a fórmula a seguir. Permita ao usuário inserir o número
 // de termos a calcular.

@@ -1,4 +1,4 @@
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 
 public class Exercicio4_25 {
     public static void main(String[] args){

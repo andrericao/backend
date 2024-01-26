@@ -2,7 +2,7 @@
 // depois que o cálculo é realizado.
 // Suponha que todas as variáveis sejam do tipo int e inicialmente tenham o valor 5.
 
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 
 public class Exercicio4_7 {
     public static void main(String[] args) {

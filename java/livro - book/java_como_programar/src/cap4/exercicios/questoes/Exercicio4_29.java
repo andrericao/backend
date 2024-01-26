@@ -1,4 +1,4 @@
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 
 import java.util.Scanner;
 

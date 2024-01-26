@@ -8,7 +8,7 @@
 // até esse ponto para todas as viagens. Todos os cálculos de média devem produzir
 // resultados de ponto flutuante. Utilize classe Scanner e repetição
 // controlada por sentinela para obter os dados do usuário.
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 
 import java.util.Scanner;
 

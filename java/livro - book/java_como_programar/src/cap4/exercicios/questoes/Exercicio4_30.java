@@ -1,4 +1,4 @@
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 
 import java.util.Scanner;
 
@@ -24,7 +24,8 @@ public class Exercicio4_30 {
         } else {
 
             while (aux > 0) {
-                inversor = inversor * 10 + aux % 10; // sempre adiciona unidade do número ao inversor
+                // sempre adiciona unidade do número ao inversor
+                inversor = inversor * 10 + aux % 10;
                 System.out.println("inversor: " + inversor);
                 aux /= 10; // remove a unidade do número
                 System.out.println("aux: " + aux);

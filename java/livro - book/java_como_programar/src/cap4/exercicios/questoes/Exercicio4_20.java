@@ -1,4 +1,4 @@
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 // 4.20 (Calculador de salários) Desenvolva um aplicativo Java que determina o salário bruto
 // de cada um de três empregados. A empresa paga as horas normais pelas primeiras 40 horas
 // trabalhadas por cada funcionário e 50% a mais por todas as horas trabalhadas além das 40

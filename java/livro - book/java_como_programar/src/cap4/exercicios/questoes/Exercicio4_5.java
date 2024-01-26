@@ -1,6 +1,6 @@
 // 4.5 Escreva uma instrução Java para realizar cada uma das seguintes tarefas:
 
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 
 public class Exercicio4_5 {
 

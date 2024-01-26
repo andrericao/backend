@@ -1,4 +1,4 @@
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 // 4.37
 // a) Escreva um aplicativo que lê um inteiro não negativo, calcula e imprime seu fatorial.
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 // c) Escreva um aplicativo que computa o valor de e x utilizando a fórmula a seguir.
 // Permita ao usuário inserir o número de termos a calcular.
 

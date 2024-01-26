@@ -1,4 +1,4 @@
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 // COPIEI DA INTERNET , MAS AINDA NÃO ENTENDI O EXERCÍCIO
 import java.util.Scanner;
 

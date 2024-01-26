@@ -3,7 +3,7 @@
 // Utilize a instrução while para fazer loop pelas instruções de cálculo e
 // incremento. O loop deve terminar quando o valor de x tornar-se 11.
 
-package cap4.exercicios;
+package cap4.exercicios.questoes;
 
 public class Exercicio4_6 {
 
