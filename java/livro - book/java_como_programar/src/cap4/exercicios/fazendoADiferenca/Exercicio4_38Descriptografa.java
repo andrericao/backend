@@ -44,10 +44,25 @@ public class Exercicio4_38Descriptografa {
             i++;
         }
 
-        System.out.println();
-        System.out.println("=".repeat(25));
-        System.out.printf("|| RESULTADO: %d     ||%n", numeroDescriptografado);
-        System.out.println("=".repeat(25));
+        if (numeroDescriptografado / 1_000 == 0) {
+            // Só pra estilizar, pois sem essa estrutura de seleção
+            // caso o primeiro dígito seja zero ele o imprime sem este
+            // Número de teste é o 1978 que deve gerar 0142
+            // A linha 56 comentada mostra resultado sem tal tratamento
+            // apenas tirei o 0 antes do número
+            System.out.println();
+            System.out.println("=".repeat(25));
+            System.out.printf("|| RESULTADO1: 0%d     ||%n", numeroDescriptografado);
+           // System.out.printf("|| RESULTADO1: %d     ||%n", numeroDescriptografado);
+            System.out.println("=".repeat(25));
+
+        } else {
+
+            System.out.println();
+            System.out.println("=".repeat(25));
+            System.out.printf("|| RESULTADO2: %d     ||%n", numeroDescriptografado);
+            System.out.println("=".repeat(25));
+        }
 
     }
 }
