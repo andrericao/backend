@@ -9,10 +9,10 @@ public class TestaPainelDesenho4_1a {
 
         JFrame app = new JFrame();
 
-        app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        app.add(painel);
-        app.setSize(450, 450);
-        app.setVisible(true);
+//        app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//
+//        app.add(painel);
+//        app.setSize(450, 450);
+//        app.setVisible(true);
     }
 }
