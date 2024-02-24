@@ -1,4 +1,4 @@
-package cap5.exercicios.exerciciosDerevisao;
+package cap5.exercicios.exerciciosDeRevisao;
 // a) Some os inteiros ímpares entre 1 e 99 utilizando uma instrução for.
 // Assuma que as variáveis de inteiro sum e count foram declaradas.
 public class Exercicio5_3a {
