@@ -26,18 +26,5 @@ public class JurosCompostos {
             montante = aporte * Math.pow(juros, ano);
             System.out.printf("%4d%,20.2f%n", ano, montante);
         }
-
-                /*
-        double montante = 0;
-        System.out.printf("Ano  ||   Montante%n");
-        System.out.println("_".repeat(25));
-
-        montante += 1000 * (1 + 0.05);
-        for(int ano = 0; ano < 10; ano++){
-            System.out.printf(" %d   ||   R$ %.2f   %n", ano + 1, montante);
-            montante *= (1 + 0.05);
-        }
-
-                 */
     }
 }
