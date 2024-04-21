@@ -25,7 +25,7 @@ public class Exercicio6_8 {
             System.out.printf("O valor a ser pago é de %f$n", valorAPagar);
         } else {
             horas = ((horas - 3) * 0.5) + 2;
-            // horas *= 0.5;
+            horas *= 0.5;
             // horas += 2.0;
             System.out.printf("O valor a ser pago é de %.2f%n", horas);
         }

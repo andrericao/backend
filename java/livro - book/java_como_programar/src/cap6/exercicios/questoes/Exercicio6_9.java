@@ -14,19 +14,17 @@ public class Exercicio6_9 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Digite um valor para ser arredondado");
+        System.out.println("Digite um valor decimal: ");
         double x = input.nextDouble();
-        double y = Math.floor((x + 0.5));
-        System.out.printf("O valor de X é %.2f e o de Y é %.2f%n", x, y);
 
-        while(x >= 0.0){
+        while(x > 0.0){
 
-            System.out.println("Digite um valor para ser arredondado");
+            System.out.printf("Valor de X %.2f | valor de X tratado %.2f%n", x, Math.floor(x));
+
+            System.out.println("Digite outro valor decimal: ");
             x = input.nextDouble();
-            y += Math.floor((x + 0.5));
-            System.out.printf("O valor de X é %.2f e o de Y é %.2f%n", x, y);
         }
 
-        System.out.printf("O valor de X é %.2f e o de Y é %.2f%n", x, y);
+        System.out.printf("%s", "Fim do Programa!");
     }
 }
