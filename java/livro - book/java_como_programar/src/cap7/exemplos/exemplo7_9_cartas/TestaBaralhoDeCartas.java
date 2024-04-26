@@ -1,6 +1,6 @@
 package cap7.exemplos.exemplo7_9_cartas;
 
-public class TesteBaralhoDeCartas {
+public class TestaBaralhoDeCartas {
     public static void main(String[] args) {
         BaralhoDeCartas baralho1 = new BaralhoDeCartas();
         baralho1.embaralhar(); // muda carta para aleatório -> gera uma única carta
